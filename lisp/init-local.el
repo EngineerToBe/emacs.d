@@ -1,7 +1,7 @@
 ;; Overriding the default theme
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'dracula t)
+(load-theme 'zenburn t)
 
 ;; Overriding the default fonts
 (set-frame-font "Inconsolata 16" nil t)
