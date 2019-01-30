@@ -1,10 +1,10 @@
 ;; Overriding the default theme
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'zenburn t)
+(load-theme 'blackboard t)
 
 ;; Overriding the default fonts
-(set-frame-font "Inconsolata 16" nil t)
+(set-frame-font "Inconsolata-18" nil t)
 
 (setq cljr-inject-dependencies-at-jack-in nil)
 
