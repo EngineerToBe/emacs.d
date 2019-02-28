@@ -1,7 +1,7 @@
 ;; Overriding the default theme
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'blackboard t)
+(load-theme 'nimbus t)
 
 ;; Overriding the default fonts
 (set-frame-font "Inconsolata-18" nil t)
